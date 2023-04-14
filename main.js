@@ -1,6 +1,6 @@
-var scrollButton = document.getElementById("abt");
+var scrollButton = document.getElementById("about");
 scrollButton.addEventListener("click", function() {
-var element = document.getElementById("int");
+var element = document.getElementById("myself");
 element.scrollIntoView({behavior: "smooth"});
 });
 var scrollButton = document.getElementById("hob");
