@@ -1,3 +1,27 @@
+/* Make sure the html and body take up the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the body to use flexbox for centering */
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: Arial, sans-serif;
+}
+
+/* Example of full height section */
+.main-content {
+  height: 100%; /* Ensure the content also takes the full height */
+  width: 100%; /* Optional: To make sure the content takes full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color for visibility */
+}
 
 html {
 	font-size:62.5%;
